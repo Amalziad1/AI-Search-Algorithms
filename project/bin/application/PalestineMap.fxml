@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="503.0" prefWidth="592.0" style="-fx-background-color: 0;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <ImageView fitHeight="348.0" fitWidth="430.0" layoutX="81.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="108.61953735351562" AnchorPane.leftAnchor="81.0" AnchorPane.rightAnchor="81.0" AnchorPane.topAnchor="81.0">
+         <image>
+            <Image url="@../../../../سطح%20المكتب/photo_2022-05-16_23-59-45.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="71.0" layoutY="25.0" prefHeight="25.0" prefWidth="478.0" text="&gt;&gt; Palestine Map with the real distances between the cities &lt;&lt;" textFill="#d10c0c" underline="true">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="back" layoutX="461.0" layoutY="423.0" mnemonicParsing="false" onAction="#Back" prefHeight="25.0" prefWidth="88.0" text="Back">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font></Button>
+      <Separator layoutX="-3.0" orientation="VERTICAL" prefHeight="503.0" prefWidth="19.0" style="-fx-background-color: #d10c0c;" />
+      <Separator layoutY="489.0" prefHeight="18.0" prefWidth="578.0" style="-fx-background-color: #d10c0c;" />
+      <Separator layoutX="573.0" orientation="VERTICAL" prefHeight="503.0" prefWidth="19.0" style="-fx-background-color: #d10c0c;" />
+      <Separator prefHeight="12.0" prefWidth="578.0" style="-fx-background-color: #d10c0c;" />
+      <Button fx:id="Exit" layoutX="461.0" layoutY="456.0" mnemonicParsing="false" onAction="#Exit" prefHeight="25.0" prefWidth="88.0" text="Exit" />
+   </children>
+</AnchorPane>
